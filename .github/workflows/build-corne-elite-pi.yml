@@ -1,15 +1,15 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Onnen Corne Sea Picro, Display'
+name: 'Build Onnen Corne Sea Picro Display'
 on: workflow_dispatch
 jobs:
   build:
     uses: ./.github/workflows/main.yml
     secrets: inherit
     with:
-      alphas: "QWERTY"
-      nav: "vi"
+      alphas: '["QWERTY"]'
+      nav: '["vi"]'
       board: '["sparkfun_pro_micro_rp2040"]'
       shield: '["corne_left","corne_right"]'
       kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
