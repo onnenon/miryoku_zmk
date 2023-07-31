@@ -12,3 +12,4 @@ jobs:
       nav: "vi"
       board: '["sparkfun_pro_micro_rp2040"]'
       shield: '["corne_left","corne_right"]'
+      kconfig: '["CONFIG_ZMK_DISPLAY=y"]'
