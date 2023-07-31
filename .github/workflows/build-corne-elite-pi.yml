@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'Build Corne'
+name: 'Onnen Corne Sea Picro, Display'
 on: workflow_dispatch
 jobs:
   build:
